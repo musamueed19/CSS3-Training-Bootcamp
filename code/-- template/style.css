@@ -6,5 +6,16 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: dodgerblue;
+    /* background-color: dodgerblue; */
+}
+
+.test {
+    color: dodgerblue;
+
+    /* margin - (T, L-R, B) ---------OR-------- (T-R-B-L) */
+    margin: 0 0 10px;
+}
+
+.fa-star {
+    color: #ffbf00;
 }
