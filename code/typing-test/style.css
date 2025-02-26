@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: whitesmoke;
+
+  /* custom styles */
+  overflow: hidden;
+
+  /* flex box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontal alignment*/
+  align-items: center; /* vertical alignment*/
+  font-family: monospace;
+  font-size: 1.5rem;
+}
+
+#text-container {
+  font-size: 1.4rem;
+  width: 800px;
+  background-color: #fff;
+  height: auto;
+  margin: 20px auto;
+  line-height: 2rem;
+  white-space: nowrap;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  cursor: none;
+  position: relative;
+  /* text-transform: capitalize; */
+}
+
+#timer {
+  margin: 10px auto;
+  font-size: 1.2rem;
+}
+
+button {
+  margin: 10px auto 0;
+  cursor: pointer;
+  padding: 8px 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+}
+
+#try-again {
+  background: rgb(43, 43, 43);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#try-again:hover {
+  background-color: rgb(15, 15, 15);
+  filter: brightness(1.2);
+}
+#try-again:active {
+  background-color: rgb(88, 88, 88);
+}
+
+.correct {
+    color: green;
+}
+.wrong {
+    color: red;
+}
